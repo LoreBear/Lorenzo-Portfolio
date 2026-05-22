@@ -35,7 +35,7 @@ I am a Work and Organizational Psychology specialist with expertise in HR Data A
 - **Impact**: Shift from descriptive HR reporting to predictive retention strategy
 
 ### 2. OSMI Mental Health Analytics Project
-[`OSMI-Project`]((https://github.com/LoreBear/OSMI-Project))
+[`OSMI-Project`](.(https://github.com/LoreBear/OSMI-Project))
 - **Focus**: Mental health in tech workplaces using OSMI survey data
 - **Dataset**: Open Sourcing Mental Illness (OSMI) Tech Survey
 - **Tools**: Python analysis with automated visualization generation
