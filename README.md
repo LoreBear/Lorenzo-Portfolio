@@ -24,7 +24,7 @@ I am a Work and Organizational Psychology specialist with expertise in HR Data A
 ## 📊 Featured Projects
 
 ### 1. HR Behavioral Analytics: Decoding Turnover & Burnout
-[`HR-Behavioral-Analysis-v14`](./hr-analytics-project/HR-Behavioral-Analysis-v14/)
+[`HR-Behavioral-Analysis-v14`](./HR-Behavioral-Analysis-v14/)
 - **Focus**: Identifying behavioral drivers of employee attrition and burnout risk
 - **Dataset**: HR Dataset v14 (1,470 employees)
 - **Tools**: Python (pandas, seaborn, matplotlib), Power BI
