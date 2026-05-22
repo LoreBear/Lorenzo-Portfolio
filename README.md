@@ -24,7 +24,7 @@ I am a Work and Organizational Psychology specialist with expertise in HR Data A
 ## 📊 Featured Projects
 
 ### 1. HR Behavioral Analytics: Decoding Turnover & Burnout
-[`HR-Behavioral-Analysis-v14`]([./HR-Behavioral-Analysis-v14/](https://github.com/LoreBear/HR-Behavioral-Analysis-v14))
+[`HR-Behavioral-Analysis-v14`]((https://github.com/LoreBear/HR-Behavioral-Analysis-v14))
 - **Focus**: Identifying behavioral drivers of employee attrition and burnout risk
 - **Dataset**: HR Dataset v14 (1,470 employees)
 - **Tools**: Python (pandas, seaborn, matplotlib), Power BI
@@ -35,7 +35,7 @@ I am a Work and Organizational Psychology specialist with expertise in HR Data A
 - **Impact**: Shift from descriptive HR reporting to predictive retention strategy
 
 ### 2. OSMI Mental Health Analytics Project
-[`OSMI-Project`]([./hr-analytics-project/OSMI-Project/](https://github.com/LoreBear/OSMI-Project))
+[`OSMI-Project`]((https://github.com/LoreBear/OSMI-Project))
 - **Focus**: Mental health in tech workplaces using OSMI survey data
 - **Dataset**: Open Sourcing Mental Illness (OSMI) Tech Survey
 - **Tools**: Python analysis with automated visualization generation
