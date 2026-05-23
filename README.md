@@ -50,7 +50,30 @@ I am a Work and Organizational Psychology specialist with expertise in HR Data A
 - **Analysis Types**: Correlation heatmaps, attrition by department, income/overtime impact studies
 - **Deliverables**: Interactive Power BI dashboard, statistical visualizations, insight generation framework
 
-### 4. Additional Case Studies & Analyses
+### 4. DEI Analytics: EMEA Dashboard
+[`dei-dashboard-emea`](./hr-analytics-project/dei-projects/dei-dashboard-emea/)
+- **Focus**: Diversity, Equity, and Inclusion analysis across EMEA regions
+- **Dataset**: Synthetic EMEA DEI data (1,000 employees)
+- **Tools**: Python (pandas, matplotlib, seaborn)
+- **Key Findings**: 
+  - Gender pay gap analysis across regions
+  - Attrition rates by demographic groups
+  - Representation trends over 3 years
+  - Hiring diversity insights by gender and region
+- **Impact**: Evidence-based DEI strategy development for multinational organizations
+
+### 5. Workshop Effectiveness: Inclusive Leadership Analytics
+[`inclusive-leadership-workshop-analytics`](./hr-analytics-project/dei-projects/inclusive-leadership-workshop-analytics/)
+- **Focus**: Measuring effectiveness of inclusive leadership training programs
+- **Dataset**: Synthetic pre/post workshop survey data (50 participants)
+- **Tools**: Python (pandas, numpy, matplotlib, seaborn, python-pptx)
+- **Key Findings**: 
+  - Statistically significant improvements across all six leadership dimensions
+  - Large effect size (Cohen's d = 0.87)
+  - Top improvements in advocacy, psychological safety, and cultural intelligence
+- **Impact**: Data-driven leadership development ROI measurement
+
+### 6. Additional Case Studies & Analyses
 - **Job Hunter Application** [`job_hunter/`](./job_hunter/): Desktop application for job scraping and matching
 - **Job Hopper Resources** [`job_hopper/`](./job_hopper/): Career transition guidance materials  
 - **Various Analytics Case Studies**: Cyclistic bike share analysis, OSMI project extensions
@@ -65,6 +88,7 @@ I am a Work and Organizational Psychology specialist with expertise in HR Data A
 - **Visualization**: Matplotlib, Seaborn, Plotly, Power BI
 - **Statistical Analysis**: Descriptive statistics, correlation, hypothesis testing, regression
 - **Data Wrangling**: Data cleaning, transformation, feature engineering, ETL processes
+- **Specialized Analytics**: DEI Analytics, Workshop Effectiveness, Inclusive Leadership Analytics
 
 ### Business Intelligence & Reporting
 - **Power BI**: Dashboard design, DAX measures, data modeling, publication
@@ -131,6 +155,9 @@ Lorenzo-People-Analytics-Portfolio/
 │   ├── HR-Behavioral-Analysis-v14/   # Turnover & burnout analysis
 │   ├── OSMI-Project/                 # Mental health analytics
 │   ├── IBM_HR_Analysis/              # Attrition prediction analysis
+│   ├── dei-projects/
+│   │   ├── dei-dashboard-emea/       # DEI Analytics: EMEA Dashboard
+│   │   └── inclusive-leadership-workshop-analytics/  # Workshop Effectiveness: Inclusive Leadership Analytics
 │   └── [Additional case studies...]
 ├── job_hunter/                       # Job search automation application
 ├── job_hopper/                       # Career transition resources
@@ -158,5 +185,5 @@ Currently open to opportunities in:
 
 ---
 
-*Last Updated: May 2026*  
+## 📅 Last Updated: May 2026
 *This portfolio is actively maintained with latest projects and certifications*
