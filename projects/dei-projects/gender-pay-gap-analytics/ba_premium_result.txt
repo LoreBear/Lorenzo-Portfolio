@@ -1,0 +1,11 @@
+import pandas as pd
+import numpy as np
+df = pd.read_csv('CurrentPopulationSurvey.csv')
+df = df[(df['empstat'].isin([10, 11, 12])) & (df['incwage'] >= 0)]
+df['hourly_wage'] = np.where((df['hrswork'] > 0) & (df['incwage'] >= 0), df['incwage'] / df['hrswork'], np.nan)
+wage_data = df.dropna(subset=['hourly_wage'])
+ba_wage = wage_data[wage_data['ba'] == 1]['hourly_wage'].median()
+no_ba_wage = wage_data[wage_data['ba'] == 0]['hourly_wage'].median()
+ba_premium = ba_wage - no_ba_wage
+ba_premium_pct = (ba_premium / no_ba_wage) * 100 if no_ba_wage > 0 else 0
+print(f'{ba_premium:.2f},{ba_premium_pct:.1f}')

@@ -1,0 +1,17 @@
+employee_id,region,gender,ethnicity,age_group,disability_status,lgbtq_status,hire_year,performance_rating,salary,attrition
+EMP0000,UK,Female,White European,30-45,No disability,Not LGBTQ+,2021,3.85,55200.0,False
+EMP0001,Germany,Male,Black African,Under 30,Has disability,LGBTQ+,2022,2.91,40320.0,True
+EMP0002,France,Non-binary,South Asian,30-45,No disability,Not LGBTQ+,2020,4.12,45000.0,False
+EMP0003,Netherlands,Female,East Asian,Over 60,No disability,Not LGBTQ+,2023,3.67,54000.0,False
+EMP0004,Spain,Male,White European,46-60,Has disability,LGBTQ+,2021,3.24,40500.0,False
+EMP0005,Italy,Female,White European,30-45,No disability,LGBTQ+,2022,3.98,38250.0,True
+EMP0006,Sweden,Male,Black African,Under 30,No disability,Not LGBTQ+,2020,2.87,55000.0,False
+EMP0007,Poland,Female,Middle Eastern,46-60,Has disability,Not LGBTQ+,2021,3.55,31500.0,True
+EMP0008,UAE,Non-binary,White European,Under 30,No disability,LGBTQ+,2023,3.76,50000.0,False
+EMP0009,South Africa,Male,South Asian,30-45,No disability,Not LGBTQ+,2020,3.42,30000.0,False
+EMP0010,UK,Female,White European,Under 30,No disability,Not LGBTQ+,2021,3.91,55200.0,False
+EMP0011,Germany,Male,Black African,30-45,Has disability,LGBTQ+,2022,2.98,40320.0,True
+EMP0012,France,Non-binary,South Asian,Over 60,No disability,Not LGBTQ+,2020,4.05,45000.0,False
+EMP0013,Netherlands,Female,East Asian,46-60,Has disability,Not LGBTQ+,2021,3.72,54000.0,False
+EMP0014,Spain,Male,White European,Under 30,No disability,LGBTQ+,2023,3.19,40500.0,False
+EMP0015,Italy,Female,White European,30-45,No disability,LGBTQ+,2022,4.01,38250.0,True

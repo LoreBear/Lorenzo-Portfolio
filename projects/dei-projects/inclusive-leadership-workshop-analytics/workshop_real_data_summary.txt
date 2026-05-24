@@ -1,0 +1,48 @@
+
+INCLUSIVE LEADERSHIP WORKSHOP ANALYSIS - REAL DATA
+==================================================
+
+Dataset: HR Employee Data (Kaggle justinlimyin/hr-employee-dataset)
+Sample Size: 3400 employees
+Analysis Date: 2026-05-24
+
+KEY FINDINGS:
+-------------
+1. Overall Leadership Competency Level: 2.97/5.0
+2. Gender Balance: 24.6% Female, 24.4% Male
+3. Top Leadership Strength: Development & Growth Mindset (2.60/5.0)
+4. Key Development Area: Experience & Role Stability (3.13/5.0)
+5. Strongest Retention Predictor: Retention & Psychological Safety (1.000 correlation with retention)
+
+LEADERSHIP COMPETENCY RANKING:
+------------------------------
+1. Experience & Role Stability: 3.13/5.0
+2. Self-Awareness & Engagement: 3.04/5.0
+3. Decision-Making & Results Orientation: 3.04/5.0
+4. Psychological Safety & Well-being: 3.00/5.0
+5. Retention & Psychological Safety: 2.97/5.0
+6. Development & Growth Mindset: 2.60/5.0
+
+GENDER DIFFERENCES:
+-------------------
+Self-Awareness & Engagement: Females score 0.04 points lower than Males
+Decision-Making & Results Orientation: Females score 0.06 points higher than Males
+Psychological Safety & Well-being: Females score 0.05 points higher than Males
+Development & Growth Mindset: Females score 0.02 points higher than Males
+Experience & Role Stability: Females score 0.01 points higher than Males
+Retention & Psychological Safety: Females score 0.05 points lower than Males
+
+DEVELOPMENT PRIORITIES:
+----------------------
+1. Focus on improving: Experience & Role Stability
+2. Leverage strength in: Development & Growth Mindset
+3. Address gender gaps in: []
+4. Enhance retention through: Retention & Psychological Safety development
+
+RECOMMENDATIONS FOR WORKSHOP DESIGN:
+------------------------------------
+1. Tailor content to address identified competency gaps
+2. Create gender-inclusive examples and case studies
+3. Develop department-specific breakout sessions
+4. Focus on practical skill-building in lowest scoring areas
+5. Measure impact through pre/post comparison of these exact metrics

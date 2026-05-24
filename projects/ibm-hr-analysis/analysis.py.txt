@@ -1,0 +1,47 @@
+import kagglehub
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+
+# --- 1. CARICAMENTO DATI ---
+print("Scarico il dataset...")
+path = kagglehub.dataset_download("pavansubhasht/ibm-hr-analytics-attrition-dataset")
+# Trova il file csv nella cartella scaricata
+csv_file = [f for f in os.listdir(path) if f.endswith('.csv')][0]
+df = pd.read_csv(os.path.join(path, csv_file))
+
+print("Dataset caricato con successo!")
+print(f"Dimensioni: {df.shape[0]} dipendenti, {df.shape[1]} colonne.")
+
+# --- 2. PULIZIA E ANALISI BASE ---
+# Calcoliamo la % di persone che hanno lasciato l'azienda
+attrition_count = df['Attrition'].value_counts()
+attrition_rate = (attrition_count['Yes'] / df.shape[0]) * 100
+print(f"Tasso di Attrition Generale: {attrition_rate:.2f}%")
+
+# --- 3. CREAZIONE GRAFICI (DA SALVARE PER GITHUB) ---
+
+# Imposta lo stile
+sns.set_theme(style="whitegrid")
+
+# GRAFICO A: Attrition per Dipartimento
+plt.figure(figsize=(10, 6))
+sns.countplot(x='Department', hue='Attrition', data=df, palette='viridis')
+plt.title('Distribuzione delle Dimissioni per Dipartimento')
+plt.xlabel('Dipartimento')
+plt.ylabel('Numero di Dipendenti')
+# Salva l'immagine invece di mostrarla e basta
+plt.savefig('chart_attrition_by_dept.png')
+print("Grafico 1 salvato: chart_attrition_by_dept.png")
+
+# GRAFICO B: Stipendio vs Attrition (Chi guadagna meno se ne va?)
+plt.figure(figsize=(10, 6))
+sns.boxplot(x='Attrition', y='MonthlyIncome', data=df, palette='coolwarm')
+plt.title('Impatto dello Stipendio Mensile sulle Dimissioni')
+plt.xlabel('Ha lasciato l\'azienda?')
+plt.ylabel('Stipendio Mensile ($)')
+plt.savefig('chart_income_impact.png')
+print("Grafico 2 salvato: chart_income_impact.png")
+
+print("Analisi completata. I file sono pronti per GitHub!")
