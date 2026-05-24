@@ -51,9 +51,9 @@ I am a Work and Organizational Psychology specialist with expertise in HR Data A
 - **Deliverables**: Interactive Power BI dashboard, statistical visualizations, insight generation framework
 
 ### 4. DEI Analytics: EMEA Dashboard
-[`dei-dashboard-emea`](./hr-analytics-project/dei-projects/dei-dashboard-emea/)
+[`dei-dashboard-emea`](projects/dei-projects/dei-dashboard-emea/)
 - **Focus**: Diversity, Equity, and Inclusion analysis across EMEA regions
-- **Dataset**: Synthetic EMEA DEI data (1,000 employees)
+- **Dataset**: Synthetic EMEA DEI data (10,000 employees)
 - **Tools**: Python (pandas, matplotlib, seaborn)
 - **Key Findings**: 
   - Gender pay gap analysis across regions
@@ -63,7 +63,7 @@ I am a Work and Organizational Psychology specialist with expertise in HR Data A
 - **Impact**: Evidence-based DEI strategy development for multinational organizations
 
 ### 5. Workshop Effectiveness: Inclusive Leadership Analytics
-[`inclusive-leadership-workshop-analytics`](./hr-analytics-project/dei-projects/inclusive-leadership-workshop-analytics/)
+[`inclusive-leadership-workshop-analytics`](projects/dei-projects/inclusive-leadership-workshop-analytics/)
 - **Focus**: Measuring effectiveness of inclusive leadership training programs
 - **Dataset**: Synthetic pre/post workshop survey data (50 participants)
 - **Tools**: Python (pandas, numpy, matplotlib, seaborn, python-pptx)

@@ -50,7 +50,9 @@ if df_corr.shape[1] >= 2:
     plt.title('IBM HR Correlation Heatmap', fontsize=15)
     plt.tight_layout()
     
-    # Salvataggio
+    # Salvataggio - rimuovi attributo di sola lettura se presente
+    if os.path.exists(path_heatmap):
+        os.chmod(path_heatmap, 0o666)  # Rendi il file scrivibile
     plt.savefig(path_heatmap, dpi=150)
     print(f"Heatmap salvata in: {path_heatmap}")
     plt.show() # Mostra a video
@@ -62,7 +64,10 @@ else:
 plt.figure(figsize=(10, 6))
 sns.countplot(x='Department', hue='Attrition', data=df, palette='viridis')
 plt.title('Attrition Distribution by Department')
-plt.savefig(os.path.join(output_folder, 'chart_attrition_by_dept.png'))
+path_attrition_dept = os.path.join(output_folder, 'chart_attrition_by_dept.png')
+if os.path.exists(path_attrition_dept):
+    os.chmod(path_attrition_dept, 0o666)  # Rendi il file scrivibile
+plt.savefig(path_attrition_dept)
 plt.close()
 
 print("\n--- Analisi completata! Controlla la cartella 'charts' ---")
