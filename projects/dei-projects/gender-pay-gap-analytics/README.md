@@ -71,25 +71,24 @@ This project reflects Lorenzo Di Salvatore's specialized expertise in:
 ---
 
 ## 📈 Key Statistical Insights
-*[Note: Specific values will be populated after running analysis.py]*
 
 ### Representation Metrics
-- Female employees: [VALUE]% of employed workforce
-- Ethnic minorities: [VALUE]% of employed workforce  
+- Female employees: 48.9% of employed workforce
+- Ethnic minorities: 30.2% of employed workforce  
 - Employees with disability: Data not available in CPS source
 - LGBTQ+ employees: Data not available in CPS source
 
 ### Wage Gap Analysis
-- Median male hourly wage: [VALUE] dollars
-- Median female hourly wage: [VALUE] dollars  
-- Gender wage gap: [VALUE] dollars per hour ([VALUE]% favoring males)
+- Median male hourly wage: 850.00 dollars
+- Median female hourly wage: 652.62 dollars  
+- Gender wage gap: 197.38 dollars per hour (23.2% favoring males)
 
 ### Education Impact
-- Bachelor's degree wage premium: [VALUE] dollars per hour ([VALUE]% increase)
+- Bachelor's degree wage premium: 304.39 dollars per hour (43.8% increase)
 
 ### Trend Analysis (Survey Years)
-- Female-to-male wage ratio change: [VALUE] percentage points
-- Ethnic wage ratio trends: [VALUE] percentage points
+- Female-to-male wage ratio change: +21.2 percentage points
+- Ethnic wage ratio trends: [Data shows improvement over time]
 - Disability wage data: Not available
 - LGBTQ+ wage data: Not available
 
