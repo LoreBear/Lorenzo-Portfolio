@@ -1,0 +1,30 @@
+# Large CSV files - download via kagglehub or source instead
+*.csv
+
+# Exceptions - small CSV files that are okay to track
+!% Attrition by JobRole.csv
+!matrix.csv
+!WA_Fn-UseC_-HR-Employee-Attrition.csv
+!survey.csv
+!HR_Dataset.csv
+!HRDataset_v14.csv
+!emea_dei_data.csv
+!real_dei_data.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*~
