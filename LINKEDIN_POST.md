@@ -14,6 +14,6 @@ Business Meaning: This diagnostic approach enables precise resource allocation t
 
 My portfolio demonstrates how combining Python/Power BI analysis with organizational psychology lenses creates actionable insights for talent optimization, cost avoidance (replacement costs ~1.5x salary), and strategic credibility.
 
-Explore the full portfolio: [GitHub Repositories]([https://github.com/LoreBear](https://github.com/LoreBear/Lorenzo-Portfolio))
+Explore the full portfolio: [GitHub Repositories](https://github.com/LoreBear/Lorenzo-Portfolio)
 
 #PeopleAnalytics #HRAnalytics #OrganizationalPsychology #DEI #WorkforceDiagnostics #DataDrivenHR
