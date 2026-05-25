@@ -48,7 +48,7 @@ Attrition is rarely about pay alone. The data reveals a complex interplay of lea
 ## Visual Analysis and Organizational Diagnostics
 
 ### Gender Distribution Across Departments
-![Gender distribution by department](chart_gender_department.png)
+![Gender distribution by department](charts/chart_gender_department.png)
 
 **What the data shows**
 - Total Employees: 311
@@ -60,7 +60,7 @@ The female-majority workforce composition (56.6%) creates an opportunity to leve
 
 ---
 ### Attrition Patterns by Demographic Groups
-![Attrition by demographic groups](chart_attrition_demographic.png)
+![Attrition by demographic groups](charts/chart_attrition_demographic.png)
 
 **What the data shows**
 - Overall Attrition Rate: 28.3%
@@ -73,7 +73,7 @@ The modest 6% higher attrition rate among female employees warrants attention bu
 
 ---
 ### Representation Trends Over Time
-![Representation trends 2006-2018](chart_representation_trends.png)
+![Representation trends 2006-2018](charts/chart_representation_trends.png)
 
 **What the data shows**
 - Female Representation Change (2006 to 2018): +0.0 percentage points
@@ -86,7 +86,7 @@ The flat trajectory in representation over twelve years indicates stable workfor
 
 ---
 ### Salary Equity Analysis by Gender
-![Salary distribution by gender](chart_salary_gender.png)
+![Salary distribution by gender](charts/chart_salary_gender.png)
 
 **What the data shows**
 - Average Male Salary: 70629 currency units
