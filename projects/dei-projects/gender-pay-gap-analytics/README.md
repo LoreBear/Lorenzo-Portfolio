@@ -52,7 +52,7 @@ Attrition is rarely about pay alone. The data reveals a complex interplay of lea
 ## Visual Analysis and Organizational Diagnostics
 
 ### Gender Distribution Across Occupations
-![Gender distribution by occupation](chart_gender_occupation.png)
+![Gender distribution by occupation](charts/chart_gender_occupation.png)
 
 **What the data shows**
 - Total Employees (Employed): 344,287
@@ -65,7 +65,7 @@ The near parity in overall workforce representation masks significant occupation
 ---
 
 ### Wage Distribution by Demographic Groups
-![Wage distribution by demographic groups](chart_wage_demographic.png)
+![Wage distribution by demographic groups](charts/chart_wage_demographic.png)
 
 **What the data shows**
 - Median Male Hourly Wage: $850.00
@@ -78,7 +78,7 @@ The 23.2% hourly wage gap represents substantial lifetime earnings disparities t
 ---
 
 ### Wage Trends Over Time (1981-2013)
-![Wage trends over time](chart_wage_trends.png)
+![Wage trends over time](charts/chart_wage_trends.png)
 
 **What the data shows**
 - Female-to-Male Wage Ratio Change (1981 to 2013): +21.2 percentage points
@@ -90,7 +90,7 @@ The improvement in the wage ratio over time indicates progress toward gender pay
 ---
 
 ### Wage Equity Analysis by Education and Gender
-![Wage distribution by education and gender](chart_wage_education_gender.png)
+![Wage distribution by education and gender](charts/chart_wage_education_gender.png)
 
 **What the data shows**
 - Bachelor's degree wage premium: $304.39 per hour (43.8% increase)
