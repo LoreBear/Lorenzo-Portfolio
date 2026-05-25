@@ -52,12 +52,8 @@ Attrition is rarely about pay alone. The data reveals a complex interplay of lea
 ---
 
 ### Gender Distribution Across Divisions
-<<<<<<< HEAD
 
-![Gender distribution by division](chart_gender_division.png)
-=======
 ![Gender distribution by division](charts/chart_gender_division.png)
->>>>>>> 73a4b4b35e5d903942825c8b7d094373c81469fb
 
 **What the data shows**
 - Female Representation: 33.9%
@@ -72,12 +68,8 @@ The concentration of male employees in two-thirds of the workforce creates struc
 ---
 
 ### Attrition Patterns by Demographic Groups
-<<<<<<< HEAD
 
-![Attrition by demographic groups](chart_attrition_demographic.png)
-=======
 ![Attrition by demographic groups](charts/chart_attrition_demographic.png)
->>>>>>> 73a4b4b35e5d903942825c8b7d094373c81469fb
 
 **What the data shows**
 - Overall Attrition Rate: 17.0%
@@ -91,12 +83,8 @@ The 33% higher attrition rate among female employees represents a significant re
 ---
 
 ### Representation Trends Over Time
-<<<<<<< HEAD
 
-![Representation trends 2020-2023](chart_representation_trends.png)
-=======
 ![Representation trends 2020-2023](charts/chart_representation_trends.png)
->>>>>>> 73a4b4b35e5d903942825c8b7d094373c81469fb
 
 **What the data shows**
 - Female Representation Change (2020 to 2023): -0.6 percentage points
@@ -110,12 +98,8 @@ The negative trajectory in both female and ethnic minority representation over t
 ---
 
 ### Salary Equity Analysis by Gender
-<<<<<<< HEAD
 
-![Salary distribution by gender](chart_salary_gender.png)
-=======
 ![Salary distribution by gender](charts/chart_salary_gender.png)
->>>>>>> 73a4b4b35e5d903942825c8b7d094373c81469fb
 
 **What the data shows**
 - Average Male Salary: 63643 currency units
@@ -264,5 +248,11 @@ HR Analytics | Organizational Psychology | People Data Strategy
 
 * LinkedIn: [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzo-di-salvatore-psico)
 * Portfolio: [GitHub Repositories](https://github.com/LoreBear)
-=======
->>>>>>> 73a4b4b35e5d903942825c8b7d094373c81469fb
+
+## Author
+
+Lorenzo Di Salvatore
+HR Analytics | Organizational Psychology | People Data Strategy
+
+* LinkedIn: [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzo-di-salvatore-psico)
+* Portfolio: [GitHub Repositories](https://github.com/LoreBear)
