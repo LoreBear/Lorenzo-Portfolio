@@ -36,42 +36,47 @@ I am a Work and Organizational Psychology specialist with expertise in HR Data A
 
 ### 2. OSMI Mental Health Analytics Project
 [`OSMI-Project`](https://github.com/LoreBear/OSMI-Project)
-- **Focus**: Mental health in tech workplaces using OSMI survey data
-- **Dataset**: Open Sourcing Mental Illness (OSMI) Tech Survey
-- **Tools**: Python analysis with automated visualization generation
-- **Outputs**: 6 insightful charts covering work interference, benefits effectiveness, leave accessibility, supervisor trust, wellness programs, and variable correlations
-- **Application**: Evidence-based mental health initiative planning for tech organizations
+- **Focus**: Organizational silence in tech mental health using OSMI survey data
+- **Dataset**: OSMI Mental Health in Tech Survey (2014) - 1,250 technology professionals
+- **Tools**: Python statistical analysis with automated visualization generation
+- **Key Findings**: 
+  - Four organizational paradoxes: Remote Amplification Effect, Wellness Program Paradox, Organizational Opacity Barrier, Supervisor Trust Deficit
+  - Supervisor trust as strongest protective factor against work interference (r = -0.18)
+  - 44.9% unable to predict mental health leave ease ( Organizational Opacity Barrier)
+- **Impact**: Evidence-based framework (S.A.F.E.) for mental health intervention planning in tech organizations
 
 ### 3. IBM HR Employee Attrition Analysis
 [`IBM_HR_Analysis`](https://github.com/LoreBear/IBM-HR-Employee-Attrition)
-- **Focus**: Predictive analytics for employee turnover
-- **Dataset**: IBM HR Analytics Employee Attrition & Performance (1,470 employees, 35 features)
-- **Tools**: Python statistical analysis, Power BI dashboarding
-- **Analysis Types**: Correlation heatmaps, attrition by department, income/overtime impact studies
-- **Deliverables**: Interactive Power BI dashboard, statistical visualizations, insight generation framework
+- **Focus**: Behavioral and organizational drivers of employee turnover
+- **Dataset**: IBM HR Analytics Employee Attrition & Performance (1,470 employees)
+- **Tools**: Python statistical analysis (pandas, numpy, seaborn, matplotlib)
+- **Key Findings**: 
+  - Overtime Attrition Paradox: 2.9x higher attrition with frequent overtime
+  - Job Satisfaction Attrition Gradient: Progressive decrease from 22.8% to 11.3%
+  - Tenure Attrition Paradox: 3.4x higher attrition for <1 year vs >5 years tenure
+- **Impact**: Evidence-based intervention framework for reducing turnover through workload management, satisfaction enhancement, and structured onboarding
 
 ### 4. DEI Analytics: EMEA Dashboard
 [`dei-dashboard-emea`](projects/dei-projects/dei-dashboard-emea/)
-- **Focus**: Diversity, Equity, and Inclusion analysis across EMEA regions
+- **Focus**: DEI metrics analysis across EMEA regions
 - **Dataset**: Synthetic EMEA DEI data (10,000 employees)
 - **Tools**: Python (pandas, matplotlib, seaborn)
 - **Key Findings**: 
-  - Gender pay gap analysis across regions
-  - Attrition rates by demographic groups
-  - Representation trends over 3 years
-  - Hiring diversity insights by gender and region
-- **Impact**: Evidence-based DEI strategy development for multinational organizations
+  - Representation Attrition Paradox: Female employees experience 33% higher attrition despite 33.9% workforce representation
+  - Representation Decline Trend: Both female (-0.6 pp) and ethnic minority (-1.1 pp) representation decreased 2020-2023
+  - Compensation Equity Gap: 7.9% gender pay gap favoring males (5,020 currency units)
+- **Impact**: Evidence-based DEI strategy development using the R.E.P. Framework (Representation, Equity, Progression)
 
 ### 5. Workshop Effectiveness: Inclusive Leadership Analytics
 [`inclusive-leadership-workshop-analytics`](projects/dei-projects/inclusive-leadership-workshop-analytics/)
-- **Focus**: Measuring effectiveness of inclusive leadership training programs
-- **Dataset**: Synthetic pre/post workshop survey data (50 participants)
-- **Tools**: Python (pandas, numpy, matplotlib, seaborn, python-pptx)
+- **Focus**: Leadership competency assessment and workshop effectiveness evaluation
+- **Dataset**: HR Employee Dataset (Kaggle) (3,400 employee records)
+- **Tools**: Python (pandas, numpy, matplotlib, seaborn)
 - **Key Findings**: 
-  - Statistically significant improvements across all six leadership dimensions
-  - Large effect size (Cohen's d = 0.87)
-  - Top improvements in advocacy, psychological safety, and cultural intelligence
-- **Impact**: Data-driven leadership development ROI measurement
+  - Overall leadership competency: 2.97/5.0 with Development & Growth Mindset as lowest (2.60/5.0)
+  - Near gender parity in representation (24.6% female, 24.4% male, 25.7% non-binary)
+  - Retention & Psychological Safety shows perfect correlation (1.000) with retention risk
+- **Impact**: Evidence-based leadership development strategy identifying critical competency gaps and retention predictors
 
 ### 6. Additional Case Studies & Analyses
 - **Job Hunter Application** [`job_hunter/`](./job_hunter/): Desktop application for job scraping and matching
