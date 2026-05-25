@@ -1,6 +1,19 @@
 # IBM HR Employee Attrition Analysis: Decoding Turnover Drivers
 
-## Abstract
+### Project by Lorenzo Di Salvatore
+Work and Organizational Psychology | HR Data Analytics Specialist
+
+![Focus](https://img.shields.io/badge/Focus-People%20Analytics-blue)
+
+![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20Power%20BI-green)
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+---
+
+
+## Project Overview: Diagnosing Workforce Dynamics Through HR Metrics
+
 This project analyzes IBM HR Employee Attrition data to identify behavioral and organizational drivers of turnover. Analysis of 1,470 employee records reveals significant predictors of attrition including overtime work, job satisfaction levels, and tenure patterns. Findings show 16.1% overall attrition rate, with employees reporting frequent overtime showing 2.9x higher attrition rates and those with less than 1 year tenure showing 3.4x higher attrition than employees with >5 years tenure.
 
 ## Research Question
@@ -12,27 +25,15 @@ What are the key behavioral and organizational drivers of employee attrition in 
 - **Variables**: Age, Attrition, BusinessTravel, DailyRate, Department, DistanceFromHome, Education, EducationField, EmployeeCount, EmployeeNumber, EnvironmentSatisfaction, Gender, HourlyRate, JobInvolvement, JobLevel, JobRole, JobSatisfaction, MaritalStatus, MonthlyIncome, NumCompaniesWorked, OverTime, PercentSalaryHike, PerformanceRating, RelationshipSatisfaction, StandardHours, StockOptionLevel, TotalWorkingYears, TrainingTimesLastYear, WorkLifeBalance, YearsAtCompany, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager
 - **Methods**: Descriptive statistics, chi-square tests for categorical variables, t-tests for continuous variables, correlation analysis
 
-## Key Findings
-- Total employees: 1,470
-- Overall attrition rate: 16.1% (237 employees)
-- Average age: 36.9 years
-- Average monthly income: $6,503
-- Average years at company: 7.0 years
-- Overtime analysis:
-  - With overtime: 416 employees, 30.5% attrition rate
-  - Without overtime: 1,054 employees, 10.4% attrition rate
-  - Overtime attrition ratio: 2.9 (30.5%/10.4%)
-- Job satisfaction analysis:
-  - Satisfaction 1: 22.8% attrition
-  - Satisfaction 2: 16.4% attrition
-  - Satisfaction 3: 16.5% attrition
-  - Satisfaction 4: 11.3% attrition
-- Tenure analysis:
-  - <1 year: 36.4% attrition
-  - 1-2 years: 34.5% attrition
-  - 2-5 years: 18.1% attrition
-  - >5 years: 10.8% attrition
-  - Tenure attrition ratio (<1yr vs >5yr): 3.4 (36.4%/10.8%)
+## Executive Summary: Diagnostic Findings
+
+Attrition is rarely about pay alone. The data reveals a complex interplay of leadership quality, workload, and emotional exhaustion converging into three organizational paradoxes:
+
+| # | Paradox | Finding |
+|---|---------|---------|
+| 1 | Overtime Attrition Paradox | Employees reporting frequent overtime show 2.9x higher attrition rates (30.5% vs 10.4%) |
+| 2 | Job Satisfaction Attrition Gradient | Attrition decreases progressively with higher job satisfaction (22.8% at level 1 to 11.3% at level 4) |
+| 3 | Tenure Attrition Paradox | Employees with <1 year tenure show 3.4x higher attrition than those with >5 years tenure (36.4% vs 10.8%) |
 
 ## Organizational Intervention Framework
 Based on findings, three targeted interventions:

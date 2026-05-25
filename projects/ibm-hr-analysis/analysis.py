@@ -70,4 +70,40 @@ if os.path.exists(path_attrition_dept):
 plt.savefig(path_attrition_dept)
 plt.close()
 
+# --- 6. Print Summary for README ---
+print("\n=== SUMMARY FOR README ===")
+print(f"Total employees: {len(df)}")
+print(f"Overall attrition rate: {df['Attrition'].value_counts(normalize=True)['Yes']*100:.1f}%")
+print(f"Average age: {df['Age'].mean():.1f} years")
+print(f"Average monthly income: ${df['MonthlyIncome'].mean():.0f}")
+print(f"Average years at company: {df['YearsAtCompany'].mean():.1f} years")
+print("\nOvertime analysis:")
+overtime_yes = df[df['OverTime'] == 'Yes']
+overtime_no = df[df['OverTime'] == 'No']
+overtime_attrition_yes = len(overtime_yes[overtime_yes['Attrition'] == 'Yes']) / len(overtime_yes) * 100
+overtime_attrition_no = len(overtime_no[overtime_no['Attrition'] == 'Yes']) / len(overtime_no) * 100
+print(f"  With overtime: {len(overtime_yes)} employees, {overtime_attrition_yes:.1f}% attrition rate")
+print(f"  Without overtime: {len(overtime_no)} employees, {overtime_attrition_no:.1f}% attrition rate")
+print(f"  Overtime attrition ratio: {overtime_attrition_yes/overtime_attrition_no:.1f} ({overtime_attrition_yes:.1f}%/{overtime_attrition_no:.1f}%)")
+print("\nJob satisfaction analysis:")
+for i in range(1, 5):
+    sat_level = df[df['JobSatisfaction'] == i]
+    if len(sat_level) > 0:
+        sat_attrition = len(sat_level[sat_level['Attrition'] == 'Yes']) / len(sat_level) * 100
+        print(f"  Satisfaction {i}: {sat_attrition:.1f}% attrition")
+print("\nTenure analysis:")
+tenure_groups = [
+    ("<1 year", df[df['YearsAtCompany'] < 1]),
+    ("1-2 years", df[(df['YearsAtCompany'] >= 1) & (df['YearsAtCompany'] < 2)]),
+    ("2-5 years", df[(df['YearsAtCompany'] >= 2) & (df['YearsAtCompany'] < 5)]),
+    (">5 years", df[df['YearsAtCompany'] >= 5])
+]
+for label, group in tenure_groups:
+    if len(group) > 0:
+        attrition_rate = len(group[group['Attrition'] == 'Yes']) / len(group) * 100
+        print(f"  {label}: {len(group)} employees, {attrition_rate:.1f}% attrition")
+if len(df[df['YearsAtCompany'] < 1]) > 0 and len(df[df['YearsAtCompany'] >= 5]) > 0:
+    lt1_rate = len(df[(df['YearsAtCompany'] < 1) & (df['Attrition'] == 'Yes')]) / len(df[df['YearsAtCompany'] < 1]) * 100
+    gt5_rate = len(df[(df['YearsAtCompany'] >= 5) & (df['Attrition'] == 'Yes')]) / len(df[df['YearsAtCompany'] >= 5]) * 100
+    print(f"  Tenure attrition ratio (<1yr vs >5yr): {lt1_rate/gt5_rate:.1f} ({lt1_rate:.1f}%/{gt5_rate:.1f}%)")
 print("\n--- Analisi completata! Controlla la cartella 'charts' ---")
