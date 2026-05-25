@@ -4,17 +4,11 @@
 
 Work and Organizational Psychology | HR Data Analytics Specialist
 
-![Focus](https://img.shields.io/badge/Focus-People%20Analytics-blue)
-
-![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20Power%20BI-green)
-
-![Status](https://img.shields.io/badge/Status-Completed-success)
-
 ---
 
-## Project Overview: Measuring Organizational Health Through DEI Metrics
+## Project Overview: Diagnosing Workforce Dynamics Through HR Metrics
 
-In modern workforce analytics, diversity, equity, and inclusion (DEI) serve as critical indicators of organizational health and sustainability. Drawing from social identity theory (Tajfel & Turner, 1979), which posits that group membership significantly influences individual behavior and attitudes in organizational settings, this project analyzes DEI metrics to uncover systemic patterns that affect employee experiences and organizational outcomes. Through the lens of organizational psychology, we treat DEI not as isolated HR initiatives but as interconnected systems shaping workplace culture, retention, and performance.
+This project analyzes DEI metrics to uncover systemic patterns that affect employee experiences and organizational outcomes. Drawing from social identity theory (Tajfel & Turner, 1979), which posits that group membership significantly influences individual behavior and attitudes in organizational settings, this project analyzes DEI not as isolated HR initiatives but as interconnected systems shaping workplace culture, retention, and performance. Through the lens of organizational psychology, we treat workforce diversity as a diagnostic indicator of organizational health rather than a standalone metric.
 
 Dataset: Kaggle DEI Measures (10,000 employee records)
 Tools: Python (Pandas, NumPy, Seaborn, Matplotlib) · Jupyter Notebook
@@ -24,7 +18,7 @@ Overall attrition rate: 17.0%
 
 ## Executive Summary: Diagnostic Findings
 
-Attrition is rarely about pay alone. The data reveals a complex interplay of leadership quality, workload, and emotional exhaustion converging into three organizational paradoxes:
+Attrition is rarely about pay alone. The data reveals a complex interplay of leadership quality, workload, and emotional exhaustion converging into three organizational paradoxes.
 
 | # | Paradox | Finding |
 |---|---------|---------|
@@ -37,26 +31,31 @@ Attrition is rarely about pay alone. The data reveals a complex interplay of lea
 ## Core Organizational Findings
 
 ### 1. Representation Attrition Paradox
-- **What the data shows:** Female representation: 33.9% of workforce; Female attrition rate: 20.4% (33% higher than male attrition rate of 15.3%); Attrition ratio (Female/Male): 1.33
-- **Psychologist's Take:** The disproportionate attrition rate among female employees despite their substantial workforce representation suggests systemic barriers to retention that transcend simple headcount metrics. As Ely (1995) found in her study of gender parity in professional firms, "the persistence of gender differences in advancement and retention indicates that organizational practices, not individual characteristics, drive disparities." The 1.33 attrition ratio indicates that for every male employee who leaves, 1.33 female employees exit — a disparity that compounds representation gaps over time. This pattern aligns with Kanter's (1977) theory of tokenism, where underrepresented groups experience heightened visibility and performance pressures that can increase turnover intentions. The intervention must address not just recruitment but the organizational climate that drives disproportionate exit rates among female talent.
+
+* **What the data shows:** Female representation: 33.9% of workforce; Female attrition rate: 20.4%; Male attrition rate: 15.3%; Attrition ratio (Female/Male): 1.33
+* **Psychologist's Take:** The disproportionate attrition rate among female employees despite their substantial workforce representation suggests systemic barriers to retention that transcend simple headcount metrics. As Ely (1995) found in her study of gender parity in professional firms, "the persistence of gender differences in advancement and retention indicates that organizational practices, not individual characteristics, drive disparities." The 1.33 attrition ratio indicates that for every male employee who leaves, 1.33 female employees exit — a disparity that compounds representation gaps over time. This pattern aligns with Kanter's (1977) theory of tokenism, where underrepresented groups experience heightened visibility and performance pressures that can increase turnover intentions. The intervention must address not just recruitment but the organizational climate that drives disproportionate exit rates among female talent.
 
 ### 2. Representation Decline Trend
-- **What the data shows:** Representation Change (2020 to 2023): Female: -0.6 percentage points; Ethnic Minority: -1.1 percentage points; Employees with Disability: +0.0 percentage points; LGBTQ+: +0.0 percentage points
-- **Psychologist's Take:** The negative trajectory in both female and ethnic minority representation over a three-year period signals deteriorating organizational inclusivity, as these trends compound existing underrepresentation. According to Nishii (2013), "the climate for inclusion encompasses employees' perceptions of being valued for their uniqueness while belonging to the organization," and declining representation often reflects erosion of this climate. The -1.1 pp decline in ethnic minority representation is particularly concerning given the established link between diverse leadership and organizational performance (Herring, 2009). These trends suggest that despite potential diversity initiatives, the organization is experiencing net loss in key demographic groups, indicating that inflow (hiring) does not offset outflow (attrition) or that progression barriers prevent advancement. The data limitation showing 0.0% for disability and LGBTQ+ representation warrants immediate data collection improvement to enable accurate analysis of these critical dimensions.
+
+* **What the data shows:** Representation Change (2020 to 2023): Female: -0.6 percentage points; Ethnic Minority: -1.1 percentage points; Employees with Disability: +0.0 percentage points; LGBTQ+: +0.0 percentage points
+* **Psychologist's Take:** The negative trajectory in both female and ethnic minority representation over a three-year period signals deteriorating organizational inclusivity, as these trends compound existing underrepresentation. According to Nishii (2013), "the climate for inclusion encompasses employees' perceptions of being valued for their uniqueness while belonging to the organization," and declining representation often reflects erosion of this climate. The -1.1 pp decline in ethnic minority representation is particularly concerning given the established link between diverse leadership and organizational performance (Herring, 2009). These trends suggest that despite potential diversity initiatives, the organization is experiencing net loss in key demographic groups, indicating that inflow (hiring) does not offset outflow (attrition) or that progression barriers prevent advancement. The data limitation showing 0.0% for disability and LGBTQ+ representation warrants immediate data collection improvement to enable accurate analysis of these critical dimensions.
 
 ### 3. Compensation Equity Gap
-- **What the data shows:** Average Male Salary: 63643 currency units; Average Female Salary: 58623 currency units; Gender Pay Gap: 5020 currency units; Gender Pay Gap Percentage: 7.9%
-- **Psychologist's Take:** The 7.9% gender pay gap favoring males represents a significant equity concern that, when compounded over careers, creates substantial lifetime earnings disparities. As Blau & Kahn (2017) demonstrated in their comprehensive analysis, "while measurable characteristics explain a portion of the gender wage gap, a significant residual remains attributable to factors such as discrimination and unobserved productivity differences." The gap persists despite controlling for role and experience in the dataset, suggesting structural biases in compensation systems. This finding aligns with Castilla's (2008) concept of "performance reward bias," where access to high-visibility assignments — often informally allocated — becomes a primary determinant of long-term compensation trajectory. The 5,020 currency unit difference translates to meaningful disparities in purchasing power, retirement savings, and economic security that require systematic audit and correction rather than superficial adjustments.
+
+* **What the data shows:** Average Male Salary: 63643 currency units; Average Female Salary: 58623 currency units; Gender Pay Gap: 5020 currency units; Gender Pay Gap Percentage: 7.9%
+* **Psychologist's Take:** The 7.9% gender pay gap favoring males represents a significant equity concern that, when compounded over careers, creates substantial lifetime earnings disparities. As Blau & Kahn (2017) demonstrated in their comprehensive analysis, "while measurable characteristics explain a portion of the gender wage gap, a significant residual remains attributable to factors such as discrimination and unobserved productivity differences." The gap persists despite controlling for role and experience in the dataset, suggesting structural biases in compensation systems. This finding aligns with Castilla's (2008) concept of "performance reward bias," where access to high-visibility assignments — often informally allocated — becomes a primary determinant of long-term compensation trajectory. The 5,020 currency unit difference translates to meaningful disparities in purchasing power, retirement savings, and economic security that require systematic audit and correction rather than superficial adjustments.
 
 ---
 
 ## Visual Analysis and Organizational Diagnostics
 
+---
+
 ### Gender Distribution Across Divisions
+
 ![Gender distribution by division](chart_gender_division.png)
 
 **What the data shows**
-- Total Employees: 10000
 - Female Representation: 33.9%
 - Male Representation: 66.1%
 - Ethnic Minority Representation: 29.1%
@@ -69,6 +68,7 @@ The concentration of male employees in two-thirds of the workforce creates struc
 ---
 
 ### Attrition Patterns by Demographic Groups
+
 ![Attrition by demographic groups](chart_attrition_demographic.png)
 
 **What the data shows**
@@ -83,6 +83,7 @@ The 33% higher attrition rate among female employees represents a significant re
 ---
 
 ### Representation Trends Over Time
+
 ![Representation trends 2020-2023](chart_representation_trends.png)
 
 **What the data shows**
@@ -97,6 +98,7 @@ The negative trajectory in both female and ethnic minority representation over t
 ---
 
 ### Salary Equity Analysis by Gender
+
 ![Salary distribution by gender](chart_salary_gender.png)
 
 **What the data shows**
@@ -112,6 +114,7 @@ The 7.9% gender pay gap reveals systemic inequities in compensation practices th
 ## Strategic Actions: The R.E.P. Framework
 
 ### R — Representation Equity: Structured Advancement Pathways
+
 **The Issue:** Both female (-0.6 pp) and ethnic minority (-1.1 pp) representation decreased from 2020-2023, indicating systemic barriers to retention and progression that undermine recruitment efforts. As Nishii (2013) notes, "climate for inclusion encompasses both fairness in employment practices and the degree to which employees feel valued for their uniqueness."
 
 **The Intervention:** Develop transparent promotion criteria with calibrated talent reviews that account for bias in performance evaluations, coupled with targeted sponsorship programs for underrepresented groups. This intervention should include quarterly representation dashboards tracked at the division level, not just organization-wide, to identify specific units requiring intervention.
@@ -119,6 +122,7 @@ The 7.9% gender pay gap reveals systemic inequities in compensation practices th
 **Why this works:** Structured advancement pathways address the "leaky pipeline" phenomenon by creating predictable, equitable routes to progression that reduce reliance on informal networks often inaccessible to underrepresented groups. As Ibarra (1993) demonstrated in her study of network centrality, "women are less likely than men to have network ties to individuals in positions of authority," limiting access to career-advancing opportunities. Transparent criteria and sponsorship directly counteract this dynamic by ensuring equitable visibility and advocacy. Tracking at the division level enables precise resource allocation rather than organization-wide initiatives that may miss localized challenges.
 
 ### E — Equity in Compensation: Bi-Annual Pay Audits with Action Plans
+
 **The Issue:** The gender pay gap of 7.9% favoring males (5,020 currency units) persists despite controls for role and experience, indicating structural biases in compensation systems. As Castilla (2008) found, "performance reward bias" — where access to high-visibility assignments determines long-term compensation — creates disparities that base-pay corrections alone cannot resolve.
 
 **The Intervention:** Implement bi-annual compensation equity analyses that examine pay gaps at the job family and level, adjusting for performance, experience, and education, with mandatory action plans for any gap exceeding 1%. These audits should include regression analysis to identify unexplained variance and examine bonus and equity compensation components beyond base salary.
@@ -126,6 +130,7 @@ The 7.9% gender pay gap reveals systemic inequities in compensation practices th
 **Why this works:** Regular, granular pay audits with accountability mechanisms create continuous improvement cycles rather than one-time corrections. As emphasized by the EU Pay Transparency Directive (2023/970/EU), "pay transparency enables employees to detect potential discrimination and employers to identify and correct unjustified pay differentials." By examining multiple compensation components and requiring action plans, this approach addresses both the symptoms and structural drivers of inequity. The 1% threshold aligns with best practices in pay equity analysis, ensuring that meaningful disparities trigger intervention while avoiding over-correction for statistically insignificant variations.
 
 ### P — Progression Equity: Inclusive Talent Identification Systems
+
 **The Issue:** Female employees experience 33% higher attrition rates (20.4% vs. 15.3% for males) despite representing 33.9% of the workforce, suggesting that retention challenges disproportionately affect underrepresented groups. As Ely (1995) observed in professional service firms, "gender differences in advancement and retention persist even when controlling for human capital and demographic variables."
 
 **The Intervention:** Implement structured interview protocols and diverse hiring panels for all positions, combined with stay interview programs for employees in their first two years to proactively address retention risks. This should include training interviewers on unconscious bias and establishing diversity requirements for hiring slates and panels.
@@ -136,23 +141,24 @@ The 7.9% gender pay gap reveals systemic inequities in compensation practices th
 
 ## Business Impact & ROI
 
-- **Cost Avoidance:** Replacing an employee costs approximately 1.5× their annual salary (SHRM, 2022). With female employees experiencing 33% higher attrition rates, addressing this disparity protects the organization from disproportionate replacement costs in segments critical to diversity goals.
-- **Productivity Protection:** Representation declines in key demographic groups signal potential losses in diverse perspectives that drive innovation and problem-solving. As Hunt et al. (2015) found, companies in the top quartile for ethnic and gender diversity are 35% more likely to have financial returns above their respective national industry medians.
-- **Strategic Credibility:** Moving beyond representational counts to examine progression, compensation, and experience metrics demonstrates a shift from compliance-focused DEI to evidence-based talent optimization. This approach positions HR as a strategic partner capable of identifying and addressing systemic barriers that impact organizational performance.
+* **Cost Avoidance:** Replacing an employee costs approximately 1.5× their annual salary (SHRM, 2022). With female employees experiencing 33% higher attrition rates, addressing this disparity protects the organization from disproportionate replacement costs in segments critical to diversity goals.
+* **Productivity Protection:** Representation declines in key demographic groups signal potential losses in diverse perspectives that drive innovation and problem-solving. As Hunt et al. (2015) found, companies in the top quartile for ethnic and gender diversity are 35% more likely to have financial returns above their respective national industry medians.
+* **Strategic Credibility:** Moving beyond representational counts to examine progression, compensation, and experience metrics demonstrates a shift from compliance-focused DEI to evidence-based talent optimization. This approach positions HR as a strategic partner capable of identifying and addressing systemic barriers that impact organizational performance.
 
 ---
 
 ## Future Scope: The Next Phase
 
-- **Intersectional Analysis:** Applying intersectionality theory (Crenshaw, 1989) to examine how overlapping identities (e.g., ethnicity and gender, disability and LGBTQ+ status) create unique experiences of inclusion or exclusion that single-axis analyses cannot capture.
-- **Managerial Accountability Metrics:** Developing leader-specific dashboards that tie representation, retention, and progression metrics to divisional performance evaluations, creating accountability for inclusive team building.
-- **Employee Experience Modeling:** Using longitudinal survey data to model how specific organizational practices (flexible work arrangements, mentorship programs, bias training) impact retention and engagement across demographic groups over time.
+* **Intersectional Analysis:** Applying intersectionality theory (Crenshaw, 1989) to examine how overlapping identities (e.g., ethnicity and gender, disability and LGBTQ+ status) create unique experiences of inclusion or exclusion that single-axis analyses cannot capture.
+* **Managerial Accountability Metrics:** Developing leader-specific dashboards that tie representation, retention, and progression metrics to divisional performance evaluations, creating accountability for inclusive team building.
+* **Employee Experience Modeling:** Using longitudinal survey data to model how specific organizational practices (flexible work arrangements, mentorship programs, bias training) impact retention and engagement across demographic groups over time.
 
 ---
 
 ## Technical Architecture
 
 ### Data Engineering Layer (Python)
+
 ```python
 import pandas as pd
 import numpy as np
@@ -199,6 +205,7 @@ plt.savefig('charts/chart_gender_division.png')
 ```
 
 ### Business Intelligence Layer (Power BI)
+
 *Not applicable — analysis conducted primarily in Python/Jupyter environment*
 
 ---
@@ -232,3 +239,11 @@ Tajfel, H., & Turner, J. C. (1979). An integrative theory of intergroup conflict
 Torres, L., & Mattis, M. C. (2011). Leading actions for strategic diversity & inclusion implementation. *Industrial and Commercial Training, 43*(5), 215–223. https://doi.org/10.1108/00197858111111944
 
 ---
+
+## Author
+
+Lorenzo Di Salvatore
+HR Analytics | Organizational Psychology | People Data Strategy
+
+* LinkedIn: [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzo-di-salvatore-psico)
+* Portfolio: [GitHub Repositories](https://github.com/LoreBear)
