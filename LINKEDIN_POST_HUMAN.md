@@ -18,6 +18,6 @@ That's why I've been playing with these little frameworks - OJT for the overtime
 
 Honestly, mixing the Python/Power BI side with the org psych lens has been surprisingly useful. Lets us move from "here's what happened" to "here's why it matters and what we might actually do about it."
 
-If you're curious, the whole portfolio's up on GitHub. Always happy to geek out about this stuff with fellow data nerds, HR folks, or anyone who thinks people deserve better than just being a line item on a spreadsheet.
+If you're curious, the whole portfolio's up on [GitHub](https://github.com/LoreBear/Lorenzo-Portfolio). Always happy to geek out about this stuff with fellow data nerds, HR folks, or anyone who thinks people deserve better than just being a line item on a spreadsheet.
 
 #PeopleAnalytics #HRAnalytics #OrganizationalPsychology #DEI #WorkforceDiagnostics #DataDrivenHR
