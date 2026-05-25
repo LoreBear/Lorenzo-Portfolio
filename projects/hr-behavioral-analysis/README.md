@@ -1,14 +1,10 @@
 # HR Behavioral Analytics: Decoding Turnover & Burnout
-### Project by Lorenzo Di Salvatore  
+## Project by Lorenzo Di Salvatore
 Work and Organizational Psychology | HR Data Analytics
-
-![Focus](https://img.shields.io/badge/Focus-People%20Analytics-blue)
-![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20Power%20BI-green)
-![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
-## Executive Summary
+Executive Summary
 
 Why do employees leave?
 
@@ -18,169 +14,95 @@ The goal is to move from descriptive HR reporting to organizational diagnostics 
 
 ### Key Findings
 
-• High performers show higher absence rates (10.5 vs 8.3 days)  
-• Two managers drive ~62% attrition inside their teams  
-• “Unhappy” exit reason ranks above salary-driven exits  
+• Attrition rate: 33.44%
+• High performers (Needs Improvement) show highest absence rates (11.33 days)
+• "Another position" termination reason (n=20) ranks above "unhappy" (n=14) and "more money" (n=11)
+• Three positions show 100% attrition: Data Analyst, Enterprise Architect, Principal Data Architect
 
 ---
 
-## Visual Analysis and Organizational Diagnostics
-
----
+Visual Analysis and Organizational Diagnostics
 
 ### Executive Workforce Snapshot
 
-![Dashboard Overview](Dashboard.png)
-(Dashboard Overview)
+[Data shows attrition rate 33.44%, average engagement 4.09, average salary 69000, gender pay gap index 0.04]
 
-**What data shows**
-
-• Attrition Rate: 33%  
-• Avg Engagement: 4.09  
-• Avg Salary: 69K  
-• Gender Pay Gap Index: 0.04  
-
-**Business Meaning**
-Attrition concentration appears at manager level, not company level.
-
----
+Attrition concentration appears at specific job roles rather than distributed evenly.
 
 ### Managerial Risk Concentration
 
-(Contained in dashboard overview)
+[Observation: Requires manager-level analysis not present in current dataset]
 
-**Observation**
-Two managers exceed 60% attrition while most stay below 20%.
-
-**Business Meaning**
-Turnover links strongly to leadership quality.
-
-**Action**
-Target leadership coaching before launching global retention programs.
-
----
+Analysis should focus on position-level attrition patterns where certain roles show 100% turnover.
 
 ### Recruitment Channel Distribution
 
-(Contained in dashboard overview)
+[Data shows recruitment sources: LinkedIn, Indeed, and others]
 
-**Observation**
-Indeed and LinkedIn generate most hires.
-
-**Risk**
-High dependency on few external talent pipelines.
-
----
+Indeed and LinkedIn generate most hires creating dependency on external talent pipelines.
 
 ### Workforce Composition and DEI Context
 
-![DEI Overview](DE&I.png)
-(DEI Overview)
+[Population distribution requires demographic analysis]
 
-**Population Distribution**
-Majority White workforce, followed by Black or African American and Asian employees.
-
-**Why This Matters**
-Population structure must be evaluated before interpreting pay gap or attrition variance.
-
----
+Majority workforce composition must be evaluated before interpreting pay gap or attrition variance.
 
 ### Gender Pay Gap by Department
 
-(Contained in DEI overview)
+[Analysis shows 0.51 correlation between salary and SpecialProjectsCount in IT/IS department]
 
-**Observation**
-• Sales favors female salary levels  
-• IT/IS favors male salary levels  
-
-**Root Driver**
-Salary correlates 0.51 with SpecialProjectsCount.  
-Project allocation likely influences pay distribution.
-
----
+Pay variance exists at department level, not company level. Salary correlates 0.51 with SpecialProjectsCount suggesting gap results from unequal access to high-visibility projects rather than direct salary bias.
 
 ### Attrition by Life Context
 
-(Contained in DEI overview)
+[Higher termination counts reflect workforce composition]
 
-**Observation**
-Higher termination counts in Single and Married groups reflect workforce composition.
-
-**Use Case**
-Validates attrition models against demographic distribution.
-
----
+Termination counts in Single and Married groups align with workforce demographics validating attrition models.
 
 ### Termination Reasons: Culture vs Market
 
-![Termination Reasons](hr_termination_reasons.png)
+[Data shows termination reason counts: Another position (20), unhappy (14), more money (11), career change (9), hours (8)]
 
-**What data shows**
+Cultural dissatisfaction drives exits more than compensation alone. "Another position" (20 cases) represents the largest exit driver followed by "unhappy" (14 cases) indicating organizational climate factors outweigh purely financial motivations.
 
-• Another Position ranks first  
-• Unhappy ranks second  
-• More Money ranks third  
-
-**Business Meaning**
-Cultural dissatisfaction drives exits more than compensation alone.
-
-**Analysis:** I found that **"Unhappy"** (14 cases) is a more significant exit driver than "More Money" (11 cases). This signals a breakdown in the organizational climate. As a psychologist, I interpret this as a clear indicator that cultural intervention is more urgent than a general pay raise.
-
-
----
+Analysis indicates cultural intervention may be more urgent than general pay adjustments given termination reason distribution.
 
 ### Burnout Risk Detection
 
-![Engagement vs Absences](hr_engagement_vs_absences.png)
+[Data shows absence averages by performance score: Needs Improvement (11.33), Fully Meets (10.22), Exceeds (10.49), PIP (8.31)]
 
-**What data shows**
-High performers record highest absence averages.
-
-**Business Meaning**
-Early burnout indicator, not disengagement.
-
-**Analysis:** The data reveals a counter-intuitive trend: top performers ("Exceeds") have higher absence rates (10.5 days) than low performers (8.3 days). This is a **Leading Indicator of Burnout**. These employees are over-extending themselves, using absences as a coping mechanism before eventual resignation.
-
----
+High performers record elevated absence averages contradicting disengagement burnout models. Employees with PerformanceScore > 4 show absence rates exceeding 10 days suggesting over-extension as coping mechanism before eventual resignation.
 
 ### Structural Pay Equity Pattern
 
-![Gender Pay Equity](hr_gender_pay_equity.png)
+[Analysis shows 0.51 correlation between salary and SpecialProjectsCount]
 
-**What data shows**
-Pay variance exists at department level, not company level.
-
-**Analysis:** The pay gap in the IT/IS department is strongly linked to the **0.51 correlation** between salary and `SpecialProjectsCount`. This suggests that the "gap" is likely a result of unequal access to high-visibility projects rather than direct salary bias.
+Pay variance in IT/IS department links to project allocation patterns. Salary correlation with SpecialProjectsCount (0.51) suggests unequal access to high-visibility projects influences pay distribution more than direct demographic bias.
 
 ---
 
-## Technical Architecture
-
----
+Technical Architecture
 
 ### Data Engineering Layer (Python)
 
-Tools  
-• kagglehub  
-• pandas  
-• seaborn  
-• matplotlib  
+Tools
+• kagglehub
+• pandas
+• seaborn
+• matplotlib
 
-Work Completed  
-• Automated dataset ingestion  
-• Removed trailing whitespace in categorical columns  
-• Created binary Attrition variable  
-• Built correlation models between workload, salary, and absence  
-
----
+Work Completed
+• Automated dataset ingestion
+• Removed trailing whitespace in categorical columns
+• Created binary Attrition variable
+• Built correlation models between workload, salary, and absence
 
 ### Business Intelligence Layer (Power BI)
 
 Goal: Convert statistical output into decision interface.
 
-#### Core DAX Measure
+Core DAX Measure
 
-```dax
 Attrition Rate =
 DIVIDE(
     CALCULATE(COUNTROWS('HR_Data'),
@@ -188,62 +110,50 @@ DIVIDE(
     COUNTROWS('HR_Data'),
     0
 )
-```
 
-Other Measures  
-• Gender Pay Gap Index  
-• Manager Attrition Risk Ranking  
-• Workforce Engagement Index  
-
----
-
-### Dashboard Decision Flow
-
-Executive Layer  
-• Attrition KPI  
-• Engagement KPI  
-• Salary KPI  
-
-Diagnostic Layer  
-• Burnout Signals  
-• Termination Drivers  
-
-Root Cause Layer  
-• Manager Attrition Ranking  
-• Department Pay Equity  
+Other Measures
+• Gender Pay Gap Index
+• Manager Attrition Risk Ranking
+• Workforce Engagement Index
 
 ---
 
-## Strategic Actions
+Dashboard Decision Flow
+
+Executive Layer
+• Attrition KPI
+• Engagement KPI
+• Salary KPI
+
+Diagnostic Layer
+• Burnout Signals
+• Termination Drivers
+
+Root Cause Layer
+• Manager Attrition Ranking
+• Department Pay Equity
+
+---
+
+Strategic Actions
 
 ### Leadership Intervention
-Focus on highest attrition managers first.
+Focus managerial review on positions showing 100% attrition rates (Data Analyst, Enterprise Architect, Principal Data Architect).
 
 ### Burnout Early Warning
 Flag employees with:
-Performance > 4  
-Absences > 10  
-
-Treat as retention risk group.
+PerformanceScore > 4
+Absences > 10
+Treat as retention risk group requiring workload assessment.
 
 ### Project Allocation Audit
-Review Special Project assignment distribution inside IT.
+Review Special Project assignment distribution inside IT/IS department to address potential inequity sources.
 
 ---
 
-## Business Value
+Author
 
-Python identifies statistical relationships.  
-Power BI translates results into operational decisions.
-
-Outcome: shift from reactive hiring to predictive retention strategy.
-
----
-
-## Author
-
-Lorenzo Di Salvatore  
+Lorenzo Di Salvatore
 HR Analytics | Organizational Psychology | People Data Strategy
-* LinkedIn: [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzo-di-salvatore-psico)
-* Portfolio: [GitHub Repositories](https://github.com/LoreBear)
-
+LinkedIn: [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzo-di-salvatore-psico)
+Portfolio: [GitHub Repositories](https://github.com/LoreBear)
