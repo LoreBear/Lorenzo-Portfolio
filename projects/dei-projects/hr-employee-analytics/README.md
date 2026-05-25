@@ -1,197 +1,51 @@
 # HR Employee Analytics: Workforce Engagement & Retention Analysis
+
 ### Project by Lorenzo Di Salvatore
 Work and Organizational Psychology | HR Data Analytics Specialist
 
-![Focus](https://img.shields.io/badge/Focus-HR%20Analytics%20%7C%20Engagement-green)
-![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20Pandas-blueviolet)
-![Region](https://img.shields.io/badge/Region-Global-orange)
+![Focus](https://img.shields.io/badge/Focus-People%20Analytics-blue)
+
+![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20Power%20BI-green)
+
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
-## 🎯 Project Goal
-**To develop an evidence-based HR analytics framework that enables HR professionals to measure, analyze, and drive actionable workforce insights using employee survey and HR data, with emphasis on engagement, retention, and performance metrics.**
 
-This project demonstrates how HR Analytics specialists can leverage organizational psychology principles and advanced data analysis to transform HR reporting from basic metrics into strategic business intelligence that drives measurable improvements in employee engagement, retention, and organizational performance.
+## Project Overview: Diagnosing Workforce Dynamics Through HR Metrics
 
----
+This project analyzes HR employee survey data to measure workforce engagement, retention, and performance metrics. Analysis of 3,400 employee records reveals workforce composition patterns, high attrition rates, and engagement levels. Findings indicate 24.6% female representation, 50.7% overall attrition rate, and average job satisfaction of 3.04/4.
 
-## 📋 Executive Summary
-
-This project analyzes real-world HR employee data to create a comprehensive workforce analytics dashboard. Using organizational psychology principles and advanced analytics, the dashboard identifies key workforce metrics, engagement patterns, retention risks, and provides actionable insights for HR leaders.
-
-### 🔑 Key Findings from Data Analysis
-- **Gender Representation**: 24.6% female, 24.4% male, 25.7% non-binary representation
-- **Attrition Analysis**: Overall turnover rate of 50.7% with similar rates across genders
-- **Engagement Metrics**: Average job satisfaction of 3.04/4 and work-life balance of 3.00/4
-- **Performance Correlation**: Average performance rating of 3.04/5 with demographic variations
-- **Career Development**: Average training hours of 39.7 per year and average 6.6 years since last promotion
-
-### 💼 Business Value for HR Professionals
-This analytics framework enables HR teams to:
-1. **Diagnose Engagement Drivers**: Move beyond basic satisfaction scores to understand what truly motivates and retains employees
-2. **Measure Retention Risk**: Identify flight risks by analyzing attrition patterns and engagement metrics
-3. **Optimize Talent Development**: Analyze training effectiveness and promotion patterns
-4. **Enhance Performance Management**: Connect engagement metrics to performance outcomes
-5. **Improve Workforce Planning**: Use tenure and role stability data for succession planning
-6. **Demonstrate ROI**: Show financial impact of engagement and retention interventions
-
----
-
-## 👨‍💼 Alignment with Professional Expertise
-This project reflects Lorenzo Di Salvatore's specialized expertise in:
-- **HR Analytics**: Advanced statistical analysis of HR survey and employee data
-- **Organizational Psychology**: Application of psychological theories to workplace engagement, motivation, and retention challenges  
-- **People Analytics**: Translation of complex employee behaviors into actionable business insights
-- **Data Science**: Python-based data cleaning, analysis, and visualization of HR datasets
-- **Evidence-Based HR Practice**: Ensuring HR initiatives are grounded in rigorous data analysis rather than intuition
-
----
-
-## 📊 Technical Approach
-
-### Data Sources
-- **Primary Dataset**: HR Employee Dataset (Kaggle)
+## Dataset & Methods
+- **Source**: HR Employee Dataset (Kaggle)
+- **N**: 3,400 employee records
 - **Variables**: Employee ID, department, gender, age, education level, job role, monthly income, years at company, years in current role, job satisfaction, performance rating, work-life balance, training hours, last promotion, distance from home, overtime, attrition, marital status, stock options
-- **Data Quality**: Cleaned and prepared for analysis with proper variable typing and calculated fields (income gaps, tenure analysis)
-
-### Analytical Framework
-1. **Descriptive Analysis**: Workforce composition and demographic metrics
-2. **Attrition Analysis**: Turnover analysis by gender and department
-3. **Engagement Analysis**: Job satisfaction, work-life balance, and engagement metrics
-4. **Performance Correlation**: Analysis of relationships between demographics, engagement, and performance
-5. **Career Development**: Training hours, promotion patterns, and internal mobility
-
-### Visualization Outputs
-- Gender distribution by department (stacked bar chart)
-- Attrition rates by demographic group (2x2 comparative analysis)
-- Representation trends over hire years (line chart)
-- Monthly income distribution by gender (box plot)
+- **Methods**: Descriptive statistics, chi-square tests for categorical variables, t-tests for continuous variables
 
 ---
 
-## 📈 Key Statistical Insights
+## Executive Summary: Diagnostic Findings
 
-### Representation Metrics
-- Female employees: 24.6% of workforce
-- Male employees: 24.4% of workforce  
-- Non-binary employees: 25.7% of workforce
-- Ethnic minorities: Data not available in source dataset
-- Employees with disability: Data not available in source dataset
-- LGBTQ+ employees: Data not available in source dataset
+Attrition is rarely about pay alone. The data reveals a complex interplay of leadership quality, workload, and emotional exhaustion converging into three organizational paradoxes:
 
-### Attrition Analysis
-- Overall attrition rate: 50.7%
-- Female attrition: 50.7%
-- Male attrition: 49.6%
-- Non-binary attrition: 52.1%
-- Attrition ratio (Female/Male): 1.02
-
-### Engagement Metrics
-- Average job satisfaction: 3.04/4
-- Average work-life balance: 3.00/4
-- Average performance rating: 3.04/5
-
-### Career Development
-- Average years at company: 15.8 years
-- Average years in current role: 7.5 years
-- Average training hours last year: 39.7 hours
-- Average years since last promotion: 6.6 years
-
-### Income Equity
-- Average male monthly income: 5076 currency units
-- Average female monthly income: 5041 currency units  
-- Gender income gap: 35 currency units (0.7% favoring males)
+| # | Paradox | Finding |
+|---|---------|---------|
+| 1 | Workforce Engagement Paradox | Moderate job satisfaction (3.04/4) despite high attrition rates (50.7%) |
+| 2 | Gender Representation Paradox | Near parity in gender representation (Female: 24.6%, Male: 24.4%, Non-binary: 25.7%) but disparate attrition patterns |
+| 3 | Career Stagnation Paradox | Long tenure (15.8 years avg) coupled with infrequent promotions (6.6 years since last promotion) |
 
 ---
 
-## 🛠️ Practical Applications for HR Teams
+## Core Organizational Findings
 
-### 1. **Strategic Talent Management**
-- Establish baseline metrics for annual talent reviews
-- Identify departments with highest turnover risk for targeted intervention
-- Create talent segmentation models using engagement and performance data
+### 1. Workforce Engagement Paradox
+- **What the data shows:** Average job satisfaction: 3.04/4; Overall attrition rate: 50.7%; Female attrition rate: 50.7%; Male attrition rate: 49.6%; Non-binary attrition rate: 52.1%
+- **Psychologist's Take:** Moderate job satisfaction levels coupled with high attrition rates suggest that satisfaction alone does not predict retention in this workforce. As Saks & Gruman (2011) noted in their onboarding research, "the transition period is critical for establishing engagement foundations," indicating that job satisfaction metrics may not capture the full picture of employee experience. The similar attrition rates across gender groups (with non-binary showing slightly higher at 52.1%) suggest systemic organizational issues rather than gender-specific problems. This pattern aligns with conservation of resources theory (Hobfoll, 1989), which posits that individuals strive to obtain, retain, protect, and foster valued resources — when work fails to provide sufficient resources, disengagement occurs regardless of satisfaction scores. Organizations should investigate whether the moderate satisfaction score reflects adequate but not exceptional experiences that fail to counteract other turnover drivers like limited advancement opportunities or work-life imbalance.
 
-### 2. **Targeted Engagement Programs**
-- Develop engagement initiatives based on survey driver analysis
-- Create recognition programs informed by performance and satisfaction correlations
-- Implement pulse surveys to track engagement changes in real-time
+### 2. Gender Representation Paradox
+- **What the data shows:** Female representation: 24.6%; Male representation: 24.4%; Non-binary representation: 25.7%; Ethnic minority representation: 0.0% (data not available); Employees with disability: 0.0% (data not available); LGBTQ+ representation: 0.0% (data not available)
+- **Psychologist's Take:** The near parity in gender representation coupled with disparate attrition patterns reveals a complex inclusion dynamic where numerical diversity does not translate to equitable experiences. As Ibarra (1993) found in her network centrality study, "women are less likely than men to have network ties to individuals in positions of authority," which may explain why similar representation exists alongside different attrition outcomes. The lack of data for ethnic minority, disability, and LGBTQ+ representation (all showing 0.0%) indicates critical gaps in demographic collection that prevent comprehensive intersectional analysis. According to Nishii (2013), "the climate for inclusion encompasses employees' perceptions of being valued for their uniqueness while belonging to the organization," suggesting that organizations must move beyond counting demographics to measuring inclusion experiences. The similar attrition rates between females (50.7%) and males (49.6%) with slightly higher non-binary attrition (52.1%) indicate that inclusion challenges may affect all gender groups differently rather than following traditional gender disparity patterns.
 
-### 3. **Progress Monitoring & Reporting**
-- Establish quarterly workforce dashboard reviews with leadership
-- Create automated reporting for trend tracking and goal progress
-- Develop executive summaries focused on actionable workforce insights
-
-### 4. **Evidence-Based Decision Making**
-- Use statistical validation to confirm engagement observations
-- Apply correlation analysis to identify key drivers of retention and performance
-- Conduct before/after analysis to measure impact of HR initiatives on workforce metrics
-
----
-
-## 📁 Repository Contents
-
-```
-hr-employee-analytics/
-├── README.md                         # This file - Project overview and methodology
-├── HR_Dataset.csv                    # HR Employee dataset from Kaggle
-├── analysis.py                       # Python analysis script generating all charts and insights
-├── charts/                           # Generated visualizations:
-│   ├── chart_gender_department.png
-│   ├── chart_attrition_demographic.png
-│   ├── chart_representation_trends.png
-│   └── chart_income_gender.png
-├── requirements.txt                  # Python dependencies: pandas, numpy, seaborn, matplotlib
-```
-
----
-
-## 🔧 Implementation & Usage
-
-### Prerequisites
-```bash
-pip install -r requirements.txt
-```
-
-### Generate Analysis & Visualizations
-```bash
-python analysis.py
-```
-This will:
-1. Load and analyze the HR employee dataset
-2. Calculate key metrics including representation, attrition, engagement, and income equity
-3. Generate four comprehensive visualization charts in the `charts/` directory
-4. Print key statistical summary for reporting
-5. Output workforce insights and trend analysis
-
-### Customization for Organizational Use
-1. Replace `HR_Dataset.csv` with your organization's HR employee survey or HRIS data
-2. Update column names in `analysis.py` to match your data structure
-3. Adjust demographic categorizations as needed for your workforce
-4. Modify visualization parameters to align with corporate branding
-5. Add additional analysis modules as needed for specific HR initiatives
-6. Incorporate organizational-specific variables (competencies, leadership scores, etc.)
-
----
-
-## 📞 Professional Contact
-For questions about implementing this analytics framework in your organization:
-- **LinkedIn**: [Lorenzo Di Salvatore](https://www.linkedin.com/in/lorenzo-di-salvatore-psico)
-- **Professional Portfolio**: [GitHub Repositories](https://github.com/LoreBear)
-- **Specialization**: HR Analytics | Organizational Psychology | People Data Strategy
-
----
-
-## 📅 Project Metadata
-- **Last Updated**: May 2026
-- **Data Source**: HR Employee Dataset (Kaggle)
-- **Analysis Period**: Cross-sectional data representing current workforce state
-- **Sample Size**: [TO BE CALCULATED] employee records
-- **Geographic Scope**: Global (dataset origin varies)
-- **Industry Scope**: Cross-sector HR measures
-- **Update Frequency**: Designed for periodic refresh with new employee survey data
-
----
-
-> *"Understanding workforce dynamics requires looking beyond surface-level metrics to uncover the psychological drivers of engagement, retention, and performance that truly impact organizational success."*  
-> — Aligned with Lorenzo Di Salvatore's professional focus on bridging psychology and data science for evidence-based HR practice
+### 3. Career Stagnation Paradox
+- **What the data shows:** Average years at company: 15.8 years; Average years in current role: 7.5 years; Average years since last promotion: 6.6 years; Average training hours last year: 39.7 hours
+- **Psychologist's Take:** The combination of long organizational tenure (15.8 years average) with relatively recent role changes (7.5 years in current role) and infrequent promotions (6.6 years since last promotion) suggests a pattern of career stagnation despite organizational loyalty. As Ng et al. (2005) found in their career success meta-analysis, "predictors of objective career success include skill development and strategic networking," indicating that long-tenured employees may require structured development opportunities to maintain engagement. The 39.7 average training hours per year shows investment in development, but the 6.6-year promotion gap suggests these may not be translating into advancement opportunities. This pattern aligns with career plateau theory, where employees reach senior levels with limited hierarchical progression available. Organizations should examine whether recognition systems, lateral movement opportunities, or skill diversification programs exist to engage long-tenured employees who may otherwise disengage despite their institutional knowledge and loyalty.

@@ -1,80 +1,63 @@
 # Inclusive Leadership Workshop Analytics - Real Data Version
 
-## Business Context
+## Abstract
+This project analyzes HR employee data to measure the effectiveness of inclusive leadership training programs through leadership competency proxies. Analysis of 3,400 employee records reveals overall leadership competency of 2.97/5.0, with Development & Growth Mindset as the lowest competency (2.60/5.0) and Experience & Role Stability as the highest (3.13/5.0). Gender analysis shows minimal disparities in leadership competencies.
 
-Global organizations face increasing pressure to develop inclusive leadership capabilities that drive innovation, employee engagement, and business performance. This workshop analytics project provides HR professionals and learning & development teams with a comprehensive framework to measure the effectiveness of inclusive leadership training programs using real HR employee data.
+## Research Question
+What is the current state of inclusive leadership competencies in the workforce, and which areas show the greatest need for development based on analysis of HR employee data?
 
-Inclusive leadership encompasses behaviors and practices that ensure all team members feel valued, respected, and able to contribute their full potential. Research consistently shows that inclusive leadership correlates with higher team performance, increased innovation, better decision-making, and improved employee retention.
+## Dataset & Methods
+- **Source**: HR Employee Dataset (Kaggle)
+- **N**: 3,400 employee records
+- **Variables**: Job satisfaction, performance rating, work-life balance, training hours, years at company, years in current role, attrition risk
+- **Methods**: Leadership competency proxy creation from HR metrics, demographic analysis by gender and department, correlation analysis between competencies and HR outcomes
 
-This analytics toolkit enables organizations to:
-- Assess current leadership competency levels using real HR data
-- Identify specific areas for improvement in leadership development programs
-- Demonstrate ROI of diversity, equity, and inclusion (DEI) investments
-- Track progress toward organizational inclusion goals
-- Make data-driven decisions for leadership development investments
+## Key Findings
+- Total employees analyzed: 3,400
+- Overall leadership competency: 2.97/5.0
+- Gender distribution: 24.6% female, 24.4% male, 25.7% non-binary, 25.3% prefer not to say
+- Leadership competency ranking (highest to lowest):
+  1. Experience & Role Stability: 3.13/5.0
+  2. Self-Awareness & Engagement: 3.04/5.0
+  3. Decision-Making & Results Orientation: 3.04/5.0
+  4. Psychological Safety & Well-being: 3.00/5.0
+  5. Retention & Psychological Safety: 2.97/5.0
+  6. Development & Growth Mindset: 2.60/5.0
+- Gender competency disparities (female vs male):
+  - Self-Awareness & Engagement: Females 0.04 points lower
+  - Decision-Making & Results Orientation: Females 0.06 points higher
+  - Psychological Safety & Well-being: Females 0.05 points higher
+  - Development & Growth Mindset: Females 0.02 points higher
+  - Experience & Role Stability: Females 0.01 points higher
+  - Retention & Psychological Safety: Females 0.05 points lower
+- Strongest predictor of retention: Retention & Psychological Safety (1.000 correlation)
+- Development gap (Experience & Role Stability minus Development & Growth Mindset): 0.53 points
 
-## Target Audience
+## Organizational Intervention Framework
+Based on findings, three targeted interventions:
 
-- HR Business Partners and DEI Specialists
-- Learning and Development Professionals
-- Talent Management Leaders
-- Organizational Development Consultants
-- Senior Leaders and People Managers
+1. **Development & Growth Mindset enhancement programs** — Implement targeted training to address the lowest leadership competency (2.60/5.0), focusing on learning orientation, challenge-seeking, and resilience
+   *(Reference: Dweck, C. S. (2006). *Mindset: The new psychology of success.* Random House.)*
 
-## Key Metrics Tracked
+2. **Experience & Role Stability leveraging initiatives** — Create mentorship and knowledge transfer programs to utilize the highest leadership competency (3.13/5.0) for organizational benefit
+   *(Reference: Allen, T. D., & Eby, L. T. (2007). *Relationships between informal mentoring, satisfaction, and organizational commitment.* Journal of Vocational Behavior, 70(3), 447-463.)*
 
-- Self-awareness and engagement
-- Decision-making and results orientation
-- Psychological safety and well-being
-- Development and growth mindset
-- Experience and role stability
-- Retention and psychological safety
+3. **Retention-focused psychological safety interventions** — Develop programs targeting the strongest retention predictor (Retention & Psychological Safety: 1.000 correlation) through inclusive leadership practices
+   *(Reference: Edmondson, A. C. (1999). *Psychological safety and learning behavior in work teams.* Administrative Science Quarterly, 44(2), 350-383.)*
 
-## Applications
+## References
+- Dweck, C. S. (2006). *Mindset: The new psychology of success.* Random House.
+- Allen, T. D., & Eby, L. T. (2007). *Relationships between informal mentoring, satisfaction, and organizational commitment.* Journal of Vocational Behavior, 70(3), 447-463.
+- Edmondson, A. C. (1999). *Psychological safety and learning behavior in work teams.* Administrative Science Quarterly, 44(2), 350-383.
 
-- Leadership competency assessment and gap analysis
-- Baseline measurement for DEI strategy development
-- Continuous improvement of leadership competency models
-- Executive reporting on leadership effectiveness
-- Coaching and development planning for people managers
-- Succession planning and talent development
+## Technical Implementation
+### Requirements
+pip install -r requirements.txt
 
-## Methodology
+### Run Analysis
+py workshop_analysis_real_data.py
 
-This toolkit analyzes real HR employee data to create leadership competency proxies based on organizational psychology principles. The analytics include:
-- Leadership competency proxy creation from HR metrics (job satisfaction, performance, work-life balance, etc.)
-- Demographic analysis by gender, department, and education level
-- Correlation analysis between leadership competencies and HR outcomes
-- Statistical analysis of strengths and development areas
-- Visualization of key findings for stakeholder presentation
-- Recommendations for program enhancement based on data insights
-
-## Files Included
-
-1. `workshop_analytics.ipynb` - Original Jupyter notebook with synthetic data (for reference)
-2. `workshop_analysis_real_data.py` - New analysis script using real HR employee data
-3. `requirements.txt` - Python package dependencies for reproducing the analysis
-4. `workshop_report.pptx` - Professional PowerPoint presentation summarizing findings and recommendations
-5. `charts_real/` - Generated visualizations from real data analysis
-6. `workshop_real_data_summary.txt` - Summary report of key findings
-
-## Usage
-
-To reproduce the real data analysis:
-1. Install required packages: `pip install -r requirements.txt`
-2. Run `python workshop_analysis_real_data.py` to generate insights and visualizations
-3. Review `workshop_real_data_summary.txt` for executive summary
-4. Examine charts in the `charts_real/` folder for detailed visualizations
-
-## Customization
-
-Organizations can adapt this toolkit by:
-- Modifying the leadership competency proxy definitions in `workshop_analysis_real_data.py` to align with specific competency models
-- Adjusting demographic analysis parameters to match organizational structure
-- Incorporating additional HR metrics as they become available
-- Extending analysis to include longitudinal tracking with historical data
-- Adding intersectional analysis for more detailed demographic breakdowns
-
-## Contact
-
-For questions about implementing this analytics framework in your organization, please contact your HR analytics or DEI team.
+### Output
+Charts saved to: charts_real/
+Summary report saved: workshop_real_data_summary.txt
+Leadership competency proxies and demographic analysis printed to terminal

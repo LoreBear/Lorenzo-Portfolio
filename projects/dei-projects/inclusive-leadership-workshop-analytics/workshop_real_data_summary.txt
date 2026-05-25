@@ -4,7 +4,7 @@ INCLUSIVE LEADERSHIP WORKSHOP ANALYSIS - REAL DATA
 
 Dataset: HR Employee Data (Kaggle justinlimyin/hr-employee-dataset)
 Sample Size: 3400 employees
-Analysis Date: 2026-05-24
+Analysis Date: 2026-05-25
 
 KEY FINDINGS:
 -------------
